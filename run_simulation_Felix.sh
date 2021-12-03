@@ -9,7 +9,7 @@ cd GeneratedFiles
 
 # Input files for specific energies
 # NUMS=($NUMS $(seq 1 18))
-NUMS=($NUMS $(seq 1))
+NUMS=($NUMS $(seq 1 2))
 for NUM in $NUMS; do
     FILES=($FILES muons_$(echo $NUM)_left.inp muons_$(echo $NUM)_right.inp muons_$(echo $NUM)_top.inp muons_$(echo $NUM)_bot.inp )
 done
